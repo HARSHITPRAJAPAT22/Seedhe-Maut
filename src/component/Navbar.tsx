@@ -7,7 +7,7 @@ export function Navbar() {
                 <span className="text-white">MAUT</span>
             </div>
              <div>
-                <img src="public/logo.png" className=" h-10 w-10">
+                <img src="/logo.png" className=" h-10 w-10">
                 </img>
              </div>
           </nav>

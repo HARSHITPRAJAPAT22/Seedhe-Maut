@@ -4,7 +4,7 @@ export function Button() {
         <div>
             <div className='glow-on-hover'>
             <img 
-            src="public/bat3.png" 
+            src="/bat3.png" 
             alt="Bat Icon"
             className="object-contain h-20 transition-all duration-300 hover:brightness-75 hover:grayscale hover:hue-rotate-[-50deg] hover:scale-110"/>
             </div>
