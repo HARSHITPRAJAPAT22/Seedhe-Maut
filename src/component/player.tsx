@@ -32,23 +32,28 @@ export function MusicPlayer() {
             imgSrc: "/tt.jpeg" // ✅ Use this for album cover
         },{
             name : "Hola Amigo",
-            url : '/Hola Amigo.mp3'
+            url : '/Hola Amigo.mp3',
+            imgSrc : "/hola.jpg"
         },
         {
             name : "Khatta Flow",
-            url : '/Khattaflow.mp3'
+            url : '/Khattaflow.mp3',
+            imgSrc : "/khattaflow.jpeg"
         },{
             name : "Maina",
-            url : '/Maina.mp3'
+            url : '/Maina.mp3',
         },{
             name : "Marne ke Baad Bhi",
-            url : '/Marne Ke Baad Bhi.mp3'
+            url : '/Marne Ke Baad Bhi.mp3',
+            imgSrc : "/marne.jpg"
         },{
             name : "नalla Freestyle",
-            url : "/nalla.mp3"
+            url : "/nalla.mp3",
+            imgSrc : "/nalla.jpg"
         },{
             name : "Nanchaku",
-            url : "/Nanchaku.mp3"
+            url : "/Nanchaku.mp3",
+            imgSrc : "/nanchaku.jpg"
         },{
             name : "Teen Dost",
             url : "/Teen Dost.mp3"
