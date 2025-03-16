@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.glow-on-hover {
+    position: relative;
+    display: inline-block;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.glow-on-hover:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    height: 120%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.6) 0%, rgba(255, 0, 0, 0) 70%);
+    z-index: -1;
+    filter: blur(15px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
